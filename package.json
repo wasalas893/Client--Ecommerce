@@ -4,9 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "SET NODE-ENV=DEVELOPMENT& nodemon backend/server",
-    "prod":"SET NODE-ENV=PRODUCTION& nodemon backend/server"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/wasalas893/Client--Ecommerce#readme",
   "dependencies": {
+    "config": "^3.3.6",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.0"
