@@ -11,10 +11,10 @@ connectDB();
 // Init Middleware
 app.use(express.json({extended: false}));
 
-//Define Routes
 
-const products=require('./routes/product');
-app.use('/api/v1',products);
+//Define Routes
+app.use('/api/product',require('./routes/api/product'));
+
 
 
 
