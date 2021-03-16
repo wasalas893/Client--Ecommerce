@@ -1,5 +1,5 @@
   
 {
-    "mongoURI":"mongodb://localhost:27017"
+    "mongoURI":"mongodb+srv://suna123:suna123@cluster0-dfx9f.mongodb.net/test?retryWrites=true&w=majority"
     
 }

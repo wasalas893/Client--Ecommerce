@@ -12,7 +12,11 @@ connectDB();
 app.use(express.json({extended: false}));
 
 //Define Routes
-app.use('/api/products',require('./routes/api/products'));
+
+const products=require('./routes/product');
+app.use('/api/v1',products);
+
+
 
 
 const PORT=process.env.PORT || 4000;
