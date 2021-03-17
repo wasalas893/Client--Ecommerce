@@ -11,7 +11,7 @@ const SearchKeyword=require('../../utils/searchKeyword');
 //get the all products /api/products
 router.get('/', async (req,res)=>{
 
-    const searchkeyword= new SearchKeyword(Product.find(),req.query).search()
+    const searchkeyword= new SearchKeyword(Product.find(),req.query).search().filter()
 
     const products=await searchkeyword.query;
     try {
