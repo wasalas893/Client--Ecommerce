@@ -14,6 +14,7 @@ app.use(express.json({extended: false}));
 
 //Define Routes
 app.use('/api/product',require('./routes/api/product'));
+app.use('/api/user',require('./routes/api/user'));
 
 
 

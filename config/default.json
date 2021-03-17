@@ -1,5 +1,7 @@
   
 {
-    "mongoURI":"mongodb+srv://suna123:suna123@cluster0-dfx9f.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://suna123:suna123@cluster0-dfx9f.mongodb.net/test?retryWrites=true&w=majority",
+    "JWT_SECRET":"fhdfhdshsadeuwdvdndndsnvdn",
+    "JWT_EXPIRES_TIME":"7d"
     
 }
